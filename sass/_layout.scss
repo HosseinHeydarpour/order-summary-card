@@ -1,0 +1,72 @@
+.card {
+  max-width: 40rem;
+  // background-color: $colo;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 1rem 4rem rgba($color-dark-blue, 0.3);
+  border-radius: 2rem;
+  overflow: hidden;
+
+  &__header {
+    margin-bottom: 2.4rem;
+    @media only screen and (max-width: $bp-mobile) {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    display: block;
+  }
+
+  &__body {
+    padding: 2.4rem 4.2rem;
+    @media only screen and (max-width: $bp-mobile) {
+      padding: 2.4rem 3.6rem;
+    }
+  }
+
+  &__text {
+    line-height: 1.6;
+    margin-bottom: 1.6rem;
+    color: $color-desaturated-blue;
+  }
+
+  &__plan-type {
+    display: flex;
+    align-items: center;
+
+    background-color: $color-very-pale-blue;
+    border-radius: 1.2rem;
+    padding: 2.4rem;
+    margin-bottom: 3.2rem;
+
+    &--icon {
+      margin-right: 1.6rem;
+    }
+    &--price {
+      margin-right: auto;
+
+      p:first-child {
+        font-weight: 900;
+        margin-bottom: 0.8rem;
+        color: $color-dark-blue;
+      }
+
+      p:nth-child(2) {
+        color: $color-desaturated-blue;
+      }
+    }
+
+    &--btn:link,
+    &--btn:visited {
+      font-weight: 700;
+    }
+
+    &--btn:active,
+    &--btn:hover {
+      color: rgba($color-bright-blue, 0.7);
+      text-decoration: none;
+    }
+  }
+}

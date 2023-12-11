@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+.heading-primary {
+  margin-bottom: 1.6rem;
+  font-weight: 900;
+  color: $color-dark-blue;
+  @media only screen and (max-width: $bp-mobile) {
+    margin-bottom: 1.4rem;
+  }
+}
+
+.btn--cta {
+  &:link,
+  &:visited {
+    display: block;
+    text-decoration: none;
+    background-color: $color-bright-blue;
+    color: $color-pale-blue;
+    padding: 1.6rem 3.2rem;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+    box-shadow: 0 1rem 3.5rem rgba($color-bright-blue, 0.4);
+    transition: all 0.4s;
+    @media only screen and (max-width: $bp-mobile) {
+      padding: 2rem 4rem;
+    }
+  }
+
+  &:active,
+  &:hover {
+    background-color: rgba($color-bright-blue, 0.7);
+    transform: translateY(-1px);
+  }
+}
+
+.btn--cancel {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $color-desaturated-blue;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2.4rem;
+    transition: all 0.4s;
+  }
+
+  &:active,
+  &:hover {
+    color: $color-dark-blue;
+    transform: translateY(-1px);
+  }
+}
