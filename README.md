@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/HosseinHeydarpour/order-summary-card)
-- Live Site URL: [Add live site URL here](https://hosseinheydarpour.github.io/order-summary-card/)
+- Solution URL: [solution URL](https://github.com/HosseinHeydarpour/order-summary-card)
+- Live Site URL: [live site URL](https://hosseinheydarpour.github.io/order-summary-card/)
 
 ## My process
 In this project, I employed SASS for a more manageable codebase, and I adopted BEM methodology alongside it. For the overall layout, I used Flexbox.
